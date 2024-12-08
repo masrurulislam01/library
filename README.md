@@ -22,4 +22,4 @@ Download and install suitable XAMP server from this link - https://www.apachefri
 - Review the config file from both of the includes folders. Change username and password accordingly.
 - Open your web browser and paste this link ("http://localhost/library/index.php"). It should open login page.
 - Use any credentials from database to login. The password for all accounts is set to **123456**
-ps://www.apachefriends.org/download.html
+
