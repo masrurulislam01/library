@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Dec 08, 2024 at 02:42 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: localhost
+-- Generation Time: Dec 08, 2024 at 05:06 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `FullName`, `AdminEmail`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'Anuj Kumar', 'phpgurukulofficial@gmail.com', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '2024-11-28 13:33:34');
+(1, 'Ayon', 'ayon1531@gmail.com', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '2024-12-08 14:40:51');
 
 -- --------------------------------------------------------
 
@@ -55,6 +55,14 @@ CREATE TABLE `overdue` (
   `MobNumber` varchar(11) NOT NULL,
   `Fine` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `overdue`
+--
+
+INSERT INTO `overdue` (`StudentID`, `StudentName`, `MobNumber`, `Fine`) VALUES
+('2', 'Ayon', '0179257824', 45),
+('3', 'ahanaf', '1882673755', 60);
 
 -- --------------------------------------------------------
 
