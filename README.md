@@ -21,5 +21,5 @@ Download and install suitable XAMP server from this link - https://www.apachefri
 - Create new empty database named library. Select the library database and import the SQL file given with the source code.
 - Review the config file from both of the includes folders. Change username and password accordingly.
 - Open your web browser and paste this link ("http://localhost/library/index.php"). It should open login page.
-- Use any credentials from database to login. Admin username and password is "admin" **123456**
+- Use any credentials from database to login. Admin username ("admin") and password is  (**123456**)
 
